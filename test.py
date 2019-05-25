@@ -19,6 +19,9 @@ async def on_message(message):
 
     if message.content.startswith('&sub') or message.content.startswith('&drop'):
         await message.channel.send('https://docs.google.com/spreadsheets/d/1TgpuozjukEdkOJdGGn-cWD3sIzMWCqnzeaycJsvmjTk/edit#gid=495949767')
+        
+    if message.content.startswith('&raid') or message.content.startswith('&graph'):
+        await message.channel.send('https://www.dropbox.com/sh/nplk7n833zpht59/AACSJGEen0ccpkVaZ-jTJIo2a/FGO_Rashomon_Tracker?dl=0&lst=&subfolder_nav_tracking=1')
 
 
 client.run('NTgxMzY2Mjc0NDc1NTU2ODc0.XOi7vg.SNwHGRSzeCsYroLKS8IkpBX6Gv4')
